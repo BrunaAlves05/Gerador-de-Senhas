@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <title>Gerador de senhas</title>
+</head>
+<body class="body">
+    <section>
+        <img src="chave.jpeg">
+        <h1>Gere sua senha super segura!</h1>
+    </section>
+    <section class="gerador__container">
+        <div>
+            <input id="inputPasswordId" type="text">
+            <div>
+                <input id="inputLengthId" type="range" min="6" max="20">
+                <label for="inputLengthId" id="label"></label>
+            </div>
+            <div>
+                <input type="checkbox" id="lowerId">
+                <label for="lowerId">Letras Minúsculas</label>
+            </div>
+            <div>
+                <input type="checkbox" id="upperId">
+                <label for="upperId">Letras Maiúsculas</label>
+            </div>
+            <div>
+                <input type="checkbox" id="numberId">
+                <label for="numberId">Números</label>
+            </div>
+            <div>
+                <input type="checkbox" id="simbolId">
+                <label for="simbolId">Símbolos</label>
+            </div>
+            <button id="btnGerar">Gerar</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

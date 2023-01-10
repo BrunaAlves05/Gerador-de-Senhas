@@ -1,0 +1,48 @@
+.body {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #222222;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+section img {
+    width: 80vh;
+    height: 100vh;
+    opacity: 70%;
+    z-index: 0;
+    position: absolute;
+}
+input {
+    padding: 5px;
+    outline: none;
+    accent-color: blueviolet;
+    border-color: blueviolet;
+
+}
+section h1 {
+    z-index: 1;
+    position: relative;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: 3em;
+    font-weight: bold;
+}
+button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    font-family:'Roboto', sans-serif ;
+    padding: 5px;
+    margin: 0 6em;
+}
+
+.gerador__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+.gerador__container div {
+    padding: 1.2em;
+    border-radius: 1em;
+}
